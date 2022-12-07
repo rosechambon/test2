@@ -1,0 +1,13 @@
+/home/rchambon/Documents/maven/lala/src/main/java/config/DBConnection.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/RemoveBookServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/AddBookServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/constants/db/UsersDBConstants.java
+/home/rchambon/Documents/maven/lala/src/main/java/constants/db/BooksDBConstants.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/UserRegisterServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/AdminLoginServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/constants/BookStoreConstants.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/ReceiptServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/config/DatabaseConfig.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/UserLoginServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/BuyBooksServlet.java
+/home/rchambon/Documents/maven/lala/src/main/java/servlets/ViewBookServlet.java

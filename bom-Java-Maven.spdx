@@ -1,0 +1,167 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: onlinebookstore-0.0.1-SNAPSHOT
+DocumentNamespace: http://spdx.org/spdxpackages/onlinebookstore-0.0.1-SNAPSHOT-a7870fe4-8768-4cc5-9781-7184577c14d5
+Creator: Tool: spdx-sbom-generator-v0.0.10
+Created: 2022-11-18T10:31:00Z
+
+##### Package representing the onlinebookstore
+
+PackageName: onlinebookstore
+SPDXID: SPDXRef-Package-onlinebookstore
+PackageVersion: 0.0.1-SNAPSHOT
+PackageSupplier: Organization: onlinebookstore
+PackageDownloadLocation: https://mvnrepository.com/artifact/onlinebookstore
+FilesAnalyzed: false
+PackageChecksum: SHA1: fce3253065a2cf3554c385dab2225a6eee1f6b38
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-onlinebookstore 
+
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-protobuf-java-3.11.4 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-2022-11-18T11-55+01 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-checker-qual-3.5.0 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-postgresql-42.3.7 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-mysql-connector-java-8.0.28 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-javax.servlet-api-3.1.0 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-maven-compiler-plugin-3.8.0 
+Relationship: SPDXRef-Package-onlinebookstore DEPENDS_ON SPDXRef-Package-maven-war-plugin-3.2.1 
+
+##### Package representing the postgresql
+
+PackageName: postgresql
+SPDXID: SPDXRef-Package-postgresql-42.3.7
+PackageVersion: 42.3.7
+PackageSupplier: Organization: postgresql
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.postgresql/postgresql/42.3.7
+FilesAnalyzed: false
+PackageChecksum: SHA1: 519968cbed983352acd749e4faf1d4af401ef7ed
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-postgresql-42.3.7 DEPENDS_ON SPDXRef-Package-checker-qual-3.5.0 
+
+##### Package representing the mysql-connector-java
+
+PackageName: mysql-connector-java
+SPDXID: SPDXRef-Package-mysql-connector-java-8.0.28
+PackageVersion: 8.0.28
+PackageSupplier: Organization: mysql-connector-java
+PackageDownloadLocation: https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.28
+FilesAnalyzed: false
+PackageChecksum: SHA1: e038745f737a93bd8705c1b17cf902ba8a6ef608
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-mysql-connector-java-8.0.28 DEPENDS_ON SPDXRef-Package-protobuf-java-3.11.4 
+
+##### Package representing the javax.servlet-api
+
+PackageName: javax.servlet-api
+SPDXID: SPDXRef-Package-javax.servlet-api-3.1.0
+PackageVersion: 3.1.0
+PackageSupplier: Organization: javax.servlet-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/3.1.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 84f2abd103bbb59ee48c14b4925dbafe17ff52f2
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-compiler-plugin
+
+PackageName: maven-compiler-plugin
+SPDXID: SPDXRef-Package-maven-compiler-plugin-3.8.0
+PackageVersion: 3.8.0
+PackageSupplier: Organization: maven-compiler-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact//maven-compiler-plugin/3.8.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6f317c4eab5a6ef236963bf88d736bda171033ce
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the maven-war-plugin
+
+PackageName: maven-war-plugin
+SPDXID: SPDXRef-Package-maven-war-plugin-3.2.1
+PackageVersion: 3.2.1
+PackageSupplier: Organization: maven-war-plugin
+PackageDownloadLocation: https://mvnrepository.com/artifact//maven-war-plugin/3.2.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: b7852e3add9f118e3d6e17b04668268a90d709cd
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the protobuf-java
+
+PackageName: protobuf-java
+SPDXID: SPDXRef-Package-protobuf-java-3.11.4
+PackageVersion: 3.11.4
+PackageSupplier: Organization: protobuf-java
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java/3.11.4
+FilesAnalyzed: false
+PackageChecksum: SHA1: 975dc55133300d035cfe2c206b54564685cb213d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the 2022-11-18T11
+
+PackageName: 2022-11-18T11
+SPDXID: SPDXRef-Package-2022-11-18T11-55+01
+PackageVersion: 55+01
+PackageSupplier: Organization: 2022-11-18T11
+PackageDownloadLocation: https://mvnrepository.com/artifact/Finished at/2022-11-18T11/55+01
+FilesAnalyzed: false
+PackageChecksum: SHA1: 26c358b896367d89c00a29c85c5bfd496bb82335
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the checker-qual
+
+PackageName: checker-qual
+SPDXID: SPDXRef-Package-checker-qual-3.5.0
+PackageVersion: 3.5.0
+PackageSupplier: Organization: checker-qual
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.checkerframework/checker-qual/3.5.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 69b9dda655838f00c4a7033ca7d73db6fbe20363
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+

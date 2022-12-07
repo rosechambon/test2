@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:8b26f528-97f5-414a-a782-26e1ae081fe8" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2022-12-07T14:37:27Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.3</version>
+        <hashes>
+          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
+          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
+          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
+          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
+          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
+          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
+          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
+          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/onlinebookstore/onlinebookstore@0.0.1-SNAPSHOT?type=war">
+      <group>onlinebookstore</group>
+      <name>onlinebookstore</name>
+      <version>0.0.1-SNAPSHOT</version>
+      <licenses/>
+      <purl>pkg:maven/onlinebookstore/onlinebookstore@0.0.1-SNAPSHOT?type=war</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.postgresql/postgresql@42.3.7?type=jar">
+      <publisher>PostgreSQL Global Development Group</publisher>
+      <group>org.postgresql</group>
+      <name>postgresql</name>
+      <version>42.3.7</version>
+      <description>PostgreSQL JDBC Driver Postgresql</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">8b32a473933eeeca7783ca06505118c9</hash>
+        <hash alg="SHA-1">1b4a36e733974ac465aa9dc972236a32ce75bb25</hash>
+        <hash alg="SHA-256">9f911e480ff8397416fedc6cb4d9582ac8b8cff345afbd2b0fdd8afa9e9612f9</hash>
+        <hash alg="SHA-512">9afb679fec3e737b8f2e07f7df92e8a44e5f5eab356a362425982900dc85ea8d9f38bd712261c426eb5f3ed5cb955fce73cf69529afceed4ed833e8ec1f0ee63</hash>
+        <hash alg="SHA-384">949528fc87e263496c91148cc6066de40541702beb336195e0511637ef63def21c48eb84c8a1eaab71a4fad54337069c</hash>
+        <hash alg="SHA3-384">9f9cc7b770590a2dd8f82eb9be034f933c0fedfc9ed90c2114b987e188c175dce9c28f7fe6c8ed7163489e69b960db39</hash>
+        <hash alg="SHA3-256">5b01efa5bcc86cd4523d5263c89f027ac4d57467b7f75e3f68f36ccc7ece9f0a</hash>
+        <hash alg="SHA3-512">b09d73925362c4d6d96c5bfc27f569cb01d8cbb12a150d282c7c15f3f9f34c9405b1d0341ba867d4669a26863e4129c8050d5c905400c964ede09490ca23f4ad</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+          <url>https://opensource.org/licenses/BSD-2-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.postgresql/postgresql@42.3.7?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://jdbc.postgresql.org/</url></reference><reference type="issue-tracker"><url>https://github.com/pgjdbc/pgjdbc/issues</url></reference><reference type="mailing-list"><url>https://www.postgresql.org/list/pgsql-jdbc/</url></reference><reference type="vcs"><url>https://github.com/pgjdbc/pgjdbc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar">
+      <group>org.checkerframework</group>
+      <name>checker-qual</name>
+      <version>3.5.0</version>
+      <description>Checker Qual is the set of annotations (qualifiers) and supporting classes
+        used by the Checker Framework to type check Java source code.
+
+        Please
+        see artifact:
+        org.checkerframework:checker</description>
+      <hashes>
+        <hash alg="MD5">4464def1ed5c10f248ebfe1bccbedf1a</hash>
+        <hash alg="SHA-1">2f50520c8abea66fbd8d26e481d3aef5c673b510</hash>
+        <hash alg="SHA-256">729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4</hash>
+        <hash alg="SHA-512">407d0ac59b02cbef7d93f25c8b287cd587232aa5ddfee6d2c7ba34d712565b0a5adfe52b5daa20d3e6c3ab1e7a5f8b08698078d9179185a1b35ada1eb92213bf</hash>
+        <hash alg="SHA-384">01fb1d7a7440f807b2bdb697c709dfa5897edc0755152c0fef465cf77dd820623fccb410ad033e3d52d4b0bc57409ecf</hash>
+        <hash alg="SHA3-384">626beff2173578c3a2ad732c81c48a9b091c9ffdea7d50f4b812fd14cd8299ab7a726b052808490b1022faca69aa6e91</hash>
+        <hash alg="SHA3-256">4fbe95b196e75e549f66831e9b1f8f46cfe1793f4fda350857f5f24349d74af1</hash>
+        <hash alg="SHA3-512">2c84365b1fcd16a765e49c5d8f30f28c3fe7cfe868ac32be726d8b9351c9053ffea23cfa1db9fb5c59c9928d22ad01c3c894d798e115bc446447228c7c4b24c6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar</purl>
+      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/mysql/mysql-connector-java@8.0.28?type=jar">
+      <publisher>Oracle Corporation</publisher>
+      <group>mysql</group>
+      <name>mysql-connector-java</name>
+      <version>8.0.28</version>
+      <description>JDBC Type 4 driver for MySQL</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">95cde01c78e7b04e13305338d60e056a</hash>
+        <hash alg="SHA-1">33678b1729d4f832b9e4bcb2d5bbd67940920a7a</hash>
+        <hash alg="SHA-256">a00ccdf537ff50e50067b989108c2235197ffb65e197149bbb669db843cd1c3e</hash>
+        <hash alg="SHA-512">4ae30140e72abea9e40a615748c358ac6079bb22844b08dd29801ef38b66761fa2b5534ca1519feff2fb1c7db3e37a9bdc9504ed5aa97710863a7b49b3fc2238</hash>
+        <hash alg="SHA-384">1a1926d1ca542e5563ff9cd6c71dc5aab5887f5cb9c9362cf7a30267cf3777a7cc05812200d91f410ffc8e443db39458</hash>
+        <hash alg="SHA3-384">39d7d365e76e549aa58940120562d197d7a3490306c8fa43655d441dcfd4a676a2299d514574942fe692994faa49352b</hash>
+        <hash alg="SHA3-256">412c1a20adc489795e5fb100c4d6cabd4008bb64a03d25ca0d6a5bbb2fa3755a</hash>
+        <hash alg="SHA3-512">6bfd0c031ef5acf1209ae73a563754503f152d79e906b4a1352e31a53bc88dd9d9797964672f898b27f597820f8f4254994f4f9d211bde467a56df06e23df7cf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>The GNU General Public License, v2 with FOSS exception</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/mysql/mysql-connector-java@8.0.28?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.oracle.com</url></reference><reference type="vcs"><url>https://github.com/mysql/mysql-connector-j</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.protobuf/protobuf-java@3.11.4?type=jar">
+      <group>com.google.protobuf</group>
+      <name>protobuf-java</name>
+      <version>3.11.4</version>
+      <description>Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an
+    efficient yet extensible format.</description>
+      <hashes>
+        <hash alg="MD5">c4ceefed77d79affded2a1302e74606d</hash>
+        <hash alg="SHA-1">7ec0925cc3aef0335bbc7d57edfd42b0f86f8267</hash>
+        <hash alg="SHA-256">42e98f58f53d1a49fd734c2dd193880f2dfec3436a2993a00d06b8800a22a3f2</hash>
+        <hash alg="SHA-512">0b03d37537c0779f088b77c01f82bddcc962e0e6428303382a7395df2ebc352ff77a38747c689d4ba9405877abda98d840a527abaa500191128f10651186919a</hash>
+        <hash alg="SHA-384">1162b20a630471da3ee284fcc593faaa76ae373a4112a332e8885a706ae5232f399e3f37956beaf33ecb84237808c78f</hash>
+        <hash alg="SHA3-384">b7270ef8b710b09cec5c4c547477ce2a0a347ad45db6757082d0cdf796138f8e9ba6c0a493fa541c94e810ad3516ae02</hash>
+        <hash alg="SHA3-256">813ee11a7c840ecde4c46f386df8a419fc4b1322ce808e3b0d0ba27b728bf693</hash>
+        <hash alg="SHA3-512">ef6a49457a61fe7cc91a71f988b5cb29ac54f77955fa3cd4f10777ac6cae3a07a3c938988a9bf84eac5632326d2eeabba67d84a45e2bb512a4d9ddb5e10e603e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.protobuf/protobuf-java@3.11.4?type=jar</purl>
+      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar">
+      <publisher>GlassFish Community</publisher>
+      <group>javax.servlet</group>
+      <name>javax.servlet-api</name>
+      <version>3.1.0</version>
+      <description>Java.net - The Source for Java Technology Collaboration</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">79de69e9f5ed8c7fcb8342585732bbf7</hash>
+        <hash alg="SHA-1">3cd63d075497751784b2fa84be59432f4905bf7c</hash>
+        <hash alg="SHA-256">af456b2dd41c4e82cf54f3e743bc678973d9fe35bd4d3071fa05c7e5333b8482</hash>
+        <hash alg="SHA-512">32f7e3565c6cdf3d9a562f8fd597fe5059af0cf6b05b772a144a74bbc95927ac275eb38374538ec1c72adcce4c8e1e2c9f774a7b545db56b8085af0065e4a1e5</hash>
+        <hash alg="SHA-384">8bf960fd053ef6ad1c3535824311f676b9ad537678b85f855dd5d6d726e391f8a7be9c9c76a8ae3ce8bfe671c1e2c942</hash>
+        <hash alg="SHA3-384">e8f3282c08ceeed02947a13e886a3d75a6ea63e4f869a0e0bcbcf622e7cbffc81ed7bc045e82820443b6572c897cc4cc</hash>
+        <hash alg="SHA3-256">8acc3481503989e1a78ad619bcbdc005b616c13736522b52e5ae5d782e8a0216</hash>
+        <hash alg="SHA3-512">ab5f85d424640ddcf6fc13a41d12ffdee0be9508cd4cdc581168b31cf7917323f6e0d984a0631068e0e01c098098fe0037d1c4176352fd89ba3a4da5d641ca3d</hash>
+      </hashes>
+      <licenses/>
+      <purl>pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://glassfish.dev.java.net</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/SERVLET_SPEC</url></reference><reference type="vcs"><url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/onlinebookstore/onlinebookstore@0.0.1-SNAPSHOT?type=war">
+      <dependency ref="pkg:maven/org.postgresql/postgresql@42.3.7?type=jar"/>
+      <dependency ref="pkg:maven/mysql/mysql-connector-java@8.0.28?type=jar"/>
+      <dependency ref="pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.postgresql/postgresql@42.3.7?type=jar">
+      <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.5.0?type=jar"/>
+    <dependency ref="pkg:maven/mysql/mysql-connector-java@8.0.28?type=jar">
+      <dependency ref="pkg:maven/com.google.protobuf/protobuf-java@3.11.4?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.google.protobuf/protobuf-java@3.11.4?type=jar"/>
+    <dependency ref="pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"/>
+  </dependencies>
+</bom>
